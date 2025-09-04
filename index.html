@@ -40,7 +40,17 @@
         <p>Welcome to our property selling guide. Please fill out the form below to get started.</p>
         
         <div class="form-container">
-            <iframe src="https://cdn.forms-content-1.sg-form.com/03ce5eea-8934-11f0-a4fe-cae26e61b0e8"></iframe>
+            <iframe 
+                src="https://cdn.forms-content-1.sg-form.com/03ce5eea-8934-11f0-a4fe-cae26e61b0e8"
+                title="Property Selling Form"
+                loading="lazy"
+                onload="console.log('Iframe loaded successfully')"
+                onerror="console.error('Iframe failed to load')"
+                sandbox="allow-forms allow-scripts allow-same-origin allow-popups">
+            </iframe>
+            <noscript>
+                <p>This form requires JavaScript to be enabled. Please enable JavaScript in your browser and refresh the page.</p>
+            </noscript>
         </div>
     </div>
 </body>
