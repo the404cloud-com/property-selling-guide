@@ -1,0 +1,14 @@
+{
+  "name": "property-selling-guide",
+  "version": "1.0.0",
+  "description": "Property selling guide with embedded form",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "build": "echo 'No build process needed for static HTML'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": ["property", "selling", "guide", "form"],
+  "author": "",
+  "license": "MIT"
+}
